@@ -1,0 +1,4 @@
+/node_modules/
+/cypress/integration/examples/
+.vscode/
+package-lock.json

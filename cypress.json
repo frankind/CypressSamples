@@ -1,0 +1,25 @@
+{
+  "baseUrl": "https://www.agoda.com",
+  "blacklistHosts": [
+    "sentry-ext-th.linecorp-dev.com",
+    "*.google-analytics.com",
+    "obs-beta.line-apps.com"
+  ],
+  "chromeWebSecurity": false,
+  "reporter": "mocha-multi-reporters",
+  "reporterOptions": {
+    "configFile": "config.json",
+    "reportDir": "mochawesome-report",
+    "videoDir": "videos"
+  },
+  "projectId": "2xrq89",
+  "viewportWidth": 1500,
+  "viewportHeight": 1000,
+  "animationDistanceThreshold": 7,
+  "defaultCommandTimeout": 4000,
+  "ignoreTestFiles": ["sample_*.js"],
+  "screenshotsFolder": "mochawesome-report/assets",
+  "videosFolder": "videos",
+  "videoUploadOnPasses": false,
+  "videoCompression": false
+}
